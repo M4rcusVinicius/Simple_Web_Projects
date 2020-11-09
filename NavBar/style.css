@@ -36,6 +36,35 @@ body {
 /*             Navitens              */
 /*=================+=================*/
 
+/* Logo */
+
+.nav-logo {
+  background-color: rgb(20, 20, 22);
+  padding: 10px 0 10px 0;
+  width: 100%;
+}
+
+.nav-logo-png {
+  width: 38px;
+  height: 38px;
+  margin-left: 13px;
+  transition: 600ms;
+}
+
+.nav-logo-text {
+  color: #cad9e7;
+  transition: 600ms;
+  font-size: 0px;
+  margin-left: 40%;
+}
+
+.nav-logo-link {
+  text-decoration: none;
+}
+
+
+/* Simple itens */
+
 .nav-item {
   width: 100%;
   text-align: center;
@@ -49,11 +78,6 @@ body {
   margin-top: auto;
 }
 
-.nav-logo {
-  background-color: #0e1114;
-  font-weight: bold;
-}
-
 .nav-link {
   display: flex;
   align-items: center;
@@ -62,7 +86,6 @@ body {
   transition: 200ms;
   color: #cad9e7;
 }
-
 
 .nav-text {
   display: inline;
@@ -100,4 +123,15 @@ body {
 .navbar:hover .nav-item i
 {
   margin-left: 150px;
+}
+
+.navbar:hover .nav-logo-text {
+  margin: 2px 0px 15px 10px;
+  font-size: 20px;
+}
+
+.navbar:hover .nav-logo-png {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
 }
