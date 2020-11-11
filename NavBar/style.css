@@ -1,5 +1,6 @@
 body {
   font-family: 'Times New Roman', Times, serif;
+  background-color: #3F82F8 ;
   margin: 0;
   padding: 0;
 }
@@ -47,7 +48,6 @@ body {
 .nav-logo-png {
   width: 38px;
   height: 38px;
-  margin-left: 13px;
   transition: 600ms;
 }
 
@@ -55,11 +55,13 @@ body {
   color: #cad9e7;
   transition: 600ms;
   font-size: 0px;
-  margin-left: 40%;
 }
 
 .nav-logo-link {
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -120,18 +122,15 @@ body {
   left: 15px;
 }
 
-.navbar:hover .nav-item i
-{
+.navbar:hover .nav-item i {
   margin-left: 150px;
 }
 
 .navbar:hover .nav-logo-text {
-  margin: 2px 0px 15px 10px;
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .navbar:hover .nav-logo-png {
   width: 100px;
   height: 100px;
-  margin-left: 50px;
 }
