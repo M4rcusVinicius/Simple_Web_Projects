@@ -134,3 +134,15 @@ body {
   width: 100px;
   height: 100px;
 }
+
+.nav-item:hover .nav-text {
+  left: 35px;
+}
+
+.nav-link:active {
+  background-color: #373e50;
+}
+
+.nav-logo:active {
+  background-color: black;
+}

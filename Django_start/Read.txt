@@ -1,8 +1,5 @@
-Este arquivo, ao ser executado, faz algumas perguntas no terminal e cria um arquivo .txt com todos os codigos nescesários para criar um projeto Django
+Este arquivo, ao ser executado, faz algumas perguntas no terminal e cria um arquivo .txt com todos os códigos necessários para criar um projeto Django
 O projeto possui app e é armazenado em um ambiente virtual venv, além do projeto Django.
 
-Pré-requisitos :
-- Ter o python instalado
-
-Objetivo: criar um projeto Django de forma facil e rapida, sem a nescecidade de ficar revendo tutoriais ou tendo problemas com erros na digitação.
+Objetivo: criar um projeto Django de forma fácil e rápida, sem a necessidade de ficar revendo tutoriais ou tendo problemas com erros na digitação.
 Obs: O arquivo cria todo o projeto, mais é importante saber a função de cada comando, portando isso não substitui um tutorial.
